@@ -66,3 +66,27 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+## Adding SASS
+
+`npm install node-sass --save`
+
+## Adding React Router
+
+`npm install react-router-dom`
+
+## LazyLoading on routing
+
+`const About = lazy(() => import('./pages/About'));`
+
+## Adding Google font
+
+`<link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">`
+
+## Adding Loader Spinner
+
+`<link rel="stylesheet" href=https://use.fontawesome.com/releases/v5.14.0/css/all.css>`
+
+## Adding Axios for Http ==> (Req, Res)
+
+`npm install axios`
