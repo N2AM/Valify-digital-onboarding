@@ -8,12 +8,12 @@ const App = () => {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
     setLoading(false);
-    camera.startCamera();
-    camera.takeSnapshot();
+    // camera.startCamera();
+    // camera.takeSnapshot();
   }, []);
   console.log(loading);
   return (
-    <div>
+    <div className="app">
       {loading && <Loader />}
       <Header />
     </div>

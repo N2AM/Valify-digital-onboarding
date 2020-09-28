@@ -1,3 +1,40 @@
 header {
   background: var(--primary);
+  box-shadow: 0 7px 15px -7px rgba(0, 0, 0, 0.04);
+  height: 70px;
+  padding: 1rem;
+
+  .grid {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: space-between;
+    align-items: center;
+
+    .col-2 {
+      height: 100%;
+      background-image: url(../../assets/images/logo-light-trans.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      flex-basis: 21%;
+      flex-shrink: 0;
+      flex-grow: 1;
+    }
+
+    .col-8 {
+      flex-basis: 70%;
+      flex-shrink: 0;
+      flex-grow: 1;
+
+      ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 8em;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+      }
+    }
+  }
 }
